@@ -3,71 +3,60 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Dawson Hormuth Personal Site</title>
-
-  <style>
-    body {
-      background-color: #DBF3FA;
-    }
-
-    hr{
-      height: 1px;
-      width: 3%;
-      border-style: dotted none none;
-      border-width: 5px;
-      border-color: lightgrey;
-    }
-  </style>
-
+  <title>Dawson Hormuth's Personal Site</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="shortcut icon" href="images\favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <table cellspacing="20">
-    <tbody>
-      <tr>
-        <td> <img src="Images\dawson_portrait.jpeg" height="150" alt="Dawson Hormuth Portrait"> </td>
-        <td>
-          <h1>Dawson Hormuth</h1>
-          <p>Computer Science and Mathematics Student at <a href="https://www.frostburg.edu/"><em>Frostburg State University</em></a> </p>
-          <p>Currently Working as a Kitchen Shift Manager at Chick-Fil-A and as a Computer Science and Math Tutor at FSU</p>
-        </td>
-      </tr>
-    </tbody>
-  </table>
-  <hr>
-  <h3>About Me</h3>
-  <p>My name is Dawson Hormuth as you already know. I am a determined and diligent <br>
-    Computer Science and Mathematics student at Fostburg State University. I currently <br>
-    hold two jobs but my main focus is on expanding my knowledge in Computer Science. </p>
-  <hr>
-  <h3>Education</h3>
-  <ul>
-    <li>
-      <h5>High School Education</h5>
-      <ul>
-        <li><a href="https://www.acpsmd.org/Domain/709">Mountain Ridge High School</a></li>
-      </ul>
-    <li>
-      <h5>College Education</h5>
-      <ul>
-        <li><a href="https://www.allegany.edu/">Allegany College of Maryland</a></li>
-        <li> <a href="https://www.frostburg.edu/">Frostburg State University</a> (Current)
-          <ul>
-            <li>Bachelor's in Computer Science</li>
-            <li>Bachelor's in Mathematics</li>
-            <li>Expected Graduation: May 2024</li>
-          </ul>
-        </li>
-      </ul>
-    </li>
-    </li>
-  </ul>
-  <hr>
-  <h3> <a href="awards-honors.html">Awards/Honors</a> </h3>
-  <h3> <a href="skills.html">Skills</a> </h3>
-  <h3> <a href="work-experience.html">Work Experience</a> </h3>
-  <h3> <a href="hobbies.html">Hobbies</a> </h3>
-  <h3> <a href="contact-details.html">Contact Me</a> </h3>
+  <div class="top-container">
+    <img class="top-cloud" src="images/cloud.png" alt="">
+    <img class="bottom-cloud" src="images/cloud.png" alt="">
+    <img class="mountain" src="images/mountain.png" alt="">
+    <div class="heading-container">
+      <h1>I'm Dawson.</h1>
+      <h2>a <span class="underline-text">pro</span>grammer</h2>
+    </div>
+  </div>
+  <div class="middle-container">
+    <div class="profile">
+      <img class="profile-picture" src="images\dawson.jpeg" alt="">
+      <h2>Hello</h2>
+      <p>My name is Dawson. I am a Computer Science and Mathematics Major at <a href="https://www.frostburg.edu/">Frostburg State University</a>.</p>
+    </div>
+    <hr>
+    <div class="skills">
+      <h2>My Skills</h2>
+      <div class="skill-row">
+        <img class="" src="images\programming.png" alt="">
+        <h3>Programming</h3>
+        <p>Being a computer science student I am familiar with programmign languages like Java, C#, SQL, and I am currently learning frontend development through HTML, CSS, and Javascript.</p>
+      </div>
+      <div class="skill-row">
+        <img class="" src="images\leadership.png" alt="">
+        <h3>Leadership</h3>
+        <p>Working at Chick-Fil-A as a Kitchen Shift Leader has made me refine my leadership skills. I am fully capable of leading fellow team members to great success inside and outside of the store.</p>
+      </div>
+    </div>
+    <hr>
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <p>Need my help? Reach me below!</p>
+      <a class="btn" href="mailto:dawson.hormuth0@gmail.com">CONTACT ME</a>
+    </div>
+  </div>
+
+
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/in/dawson-hormuth-44733b252">LinkedIn</a>
+    <a class="footer-link" href="https://github.com/ddhormuth0">GitHub</a>
+    <p>© Hormuth</p>
+    <p class="references">Coding icons created by <a href="https://www.flaticon.com/free-icons/coding" title="coding icons">juicy_fish - Flaticon</a></p>
+    <p class="references">Leader icons created by <a href="https://www.flaticon.com/free-icons/leader" title="leader icons">Freepik - Flaticon</a></p>
+  </div>
 </body>
 
 </html>
